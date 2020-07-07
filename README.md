@@ -7,5 +7,5 @@ This image is used to run HAProxy. It is based on the official HAProxy image and
 docker run -d \
     -v /your/config.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro \
     --name haproxy \
-    kyberna/haproxy
+    petski/haproxy
 ```
